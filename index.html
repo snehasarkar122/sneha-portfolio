@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha Sarkar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 class="animate">Hi, I'm Sneha Sarkar</h1>
+        <p class="animate">BCA Student | Web Developer | Tech Enthusiast</p>
+    </header>
+    
+    <section id="about" style="background: linear-gradient(120deg, #f6f8fd, #b5cdf2)">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="sneha.jpg" alt="Sneha Sarkar" class="profile-img">
+            <p>Passionate about coding, exploring web development, and learning new technologies.</p>
+        </div>
+    </section>
+    
+    <section id="skills" style="background: linear-gradient(120deg, #a8e8d4, #e3eeff)">
+        <h2>Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="skill-bar"><div class="skill-fill" style="width: 65%;"></div></div>
+        </div>
+    </section>
+    
+    <section id="education" style="background: linear-gradient(120deg, #e3f0f1, #c4f2e5)">
+        <h2>Education</h2>
+        <div class="education-timeline"></div>
+            <div class="education-item">
+                <div class="education-box">
+                    Bachelor of Computer Applications (BCA)
+                    <p class="education-details">Mangaldai College | 2023-2026</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-box">
+                    Higher Secondary (12th)
+                    <p class="education-details">ABC School | 2023</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-box">
+                    Secondary (10th)
+                    <p class="education-details">ABC School | 2021</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" style="background: linear-gradient(120deg, #b1efd5, #ebeef2)">
+        <h2>Projects</h2>
+        <div class="project animate">Upcoming...</div>
+        <div class="project animate">Upcoming...</div>
+        <div class="project animate">Upcoming...</div>
+    </section>
+    
+    <section id="contact" style="background: linear-gradient(120deg, #e7eeee, #baefde)">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Sneha Sarkar | All Rights Reserved</p>
+    </footer>
+    
+    <script>
+        gsap.from(".animate", {opacity: 0, y: 50, duration: 1, stagger: 0.3});
+    </script>
+</body>
+</html>
